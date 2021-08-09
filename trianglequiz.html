@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Triangle Quiz</title>
+    <link rel="stylesheet" href="./styles.css"/>
 </head>
 <body>
-    <div>
+    <div class="container-triangle-quiz">
         <h1> Take a Quiz ?</h1>
         <form id="quiz-form">
-            <div class="questions-container">
+            <div class="container-questions">
                 <p>1. All the angles of a triangle add upto _____?</p>
                 <label><input class="options" type="radio" name="question1" value="270°"/>270°</label>
                 <label><input class="options" type="radio" name="question1" value="180°"/>180°</label>
@@ -43,9 +44,7 @@
         
         <button id="submit-button">Submit Answers</button>
         
-        <div id="output-box"></div>
-        <div id="error-box"></div>
-
+        <div id="output-box-quiz"></div>
     </div>
     
 
