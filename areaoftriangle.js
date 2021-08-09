@@ -19,9 +19,8 @@ function clickHandler() {
         var areaOfTriangle = calculateArea(baseOfTriangle, heightOfTriangle);
 
         outputBox.style.display = "block";
-        outputBox.innerText = "The area of the triangle is: " + areaOfTriangle;
+        outputBox.innerText = "The Area of the triangle is: " + areaOfTriangle;
     } else {
-        alert("Input Value Error: Input should be a number and more than zero.")
         errorBox.style.display = "block";
         errorBox.innerText = "Please Enter Valid values in both the fields."
     }
