@@ -1,61 +1,126 @@
-
+*{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
 body{
-    background-color: black;
+    background-color: darkblue;
 }
 
-.container{
+.container-home{
+    max-width: 50%;
+    text-align: center;
+    background-color: black;
+    color: cyan;
     display: flex;
     flex-direction:column;
-    max-width:50%;
     margin: auto;
+    margin-top:10rem;
+    padding: 1rem;
+    padding-bottom: 8rem;
+    font-size: 23px;
+    justify-content: center;
+}
+
+
+
+.navigate{
+    color: cyan;
+    text-decoration: none;
+    padding: 1rem 1rem;
+    margin: 1rem 1rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    background-color: darkslateblue;
+    border-radius: 1.5rem;
+}
+
+
+/* for triangle quiz */
+
+.container-triangle-quiz{
+    max-width: 50%;
+    background-color: 	#3B82F6;
+    color: black;
+    display: flex;
+    flex-direction:column;
+    margin: auto;
+    margin-top:2.5rem;
     padding: 1rem;
     padding-bottom: 8rem;
     text-align: center;
     font-size: 23px;
-    background-color:greenyellow; 
+    justify-content: center;
 }
 
-
-label{
-    margin-bottom: 1rem;
-    margin-top:1rem;
-    margin-right:15rem;
-    margin-left:15rem;
-    padding:0.5rem;
-    border-radius: 0.4rem;
-    color: cyan;
+.container-questions{
+    text-align:left;
+    padding-left: 1rem;
+    margin-left:1rem;
 }
 
-input{
-    text-align: center;
-    padding: 0.5rem;
-    border-radius: 0.4rem;
+#submit-button{
     display: block;
-}
-
-button{
-    margin-top: 1rem;
+    margin-top:3rem;
+    margin-left:15rem;
+    margin-right:15rem;
     padding: 0.5rem;
-    background-color: sandybrown;
+    background: darkblue;
+    font-size: larger;
     font-weight: bold;
-    font-size: medium;
-    border-radius: 0.3rem;
+    border-radius: 0.8rem;
+    color:white;
+    cursor: pointer;
+}
+
+#output-box-quiz{
+    margin-top: 2rem;
+    font-weight: bolder;
+
+}
+
+/* for angles & hypotenuse & area of triangle  */
+
+.container-triangles-angle{
+    display:contents;
+}
+label{
+    margin-bottom:1rem;
+    margin-top: 1rem;
+}
+
+
+#check-button, #calculate-button{
     display: block;
-    margin-right:15rem;
-    margin-left:15rem;
+    margin-top:1.5rem;
+    margin-left:20rem;
+    margin-right:20rem;
+    padding: 0.5rem;
+    background: transparent;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 0.8rem;
+    color: cyan;
+    border-color: cyan;
 }
 
 #output-box{
-    margin-top: 1rem;
-    padding: 1rem;
-    background-color: darkolivegreen;
-    color: cyan;
-    border-radius:0.3rem;
+    margin-top: 2rem;
+    font-weight: bolder;
 }
 
+
 #error-box{
-    margin-top: 1rem;
-    padding: 0.5rem;
+    margin-top: 2rem;
     color: red;
+}
+
+/* input part for angles& area & hypotenuse */
+
+.angles, #base, #perpendicular, #height{
+    text-align: center;
+    margin-left: 11rem;
+    margin-right: 11rem;
+    padding: 0.5rem;
     font-weight: bolder;
+    font-size: large;
+    border-radius: 0.5rem;
 }
