@@ -20,10 +20,10 @@ function clickHandler() {
         console.log(sumOfAngles);
         if (sumOfAngles === 180) {
             outputBox.style.display = "block";
-            outputBox.innerHTML = "yayy!  The given angles form a triangle.";
+            outputBox.innerText = "yayy!  The given angles form a triangle.";
         } else {
             outputBox.style.display = "block";
-            outputBox.innerHTML = "Oops! The given angles fail to form a triangle.";
+            outputBox.innerText = "Oops! The given angles fail to form a triangle.";
         }
     } else {
         errorBox.style.display="block";
