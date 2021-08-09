@@ -1,7 +1,6 @@
 var quizForm = document.querySelector("#quiz-form");
 var submitButton = document.querySelector("#submit-button");
-var outputBox = document.querySelector("#output-box");
-var errorBox = document.querySelector("#error-box");
+var outputBox = document.querySelector("#output-box-quiz");
 
 submitButton.addEventListener("click",clickHandler)
 
