@@ -1,0 +1,62 @@
+
+body{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    flex-direction:column;
+    max-width:50%;
+    margin: auto;
+    padding: 1rem;
+    padding-bottom: 8rem;
+    text-align: center;
+    font-size: 23px;
+    background-color:greenyellow; 
+}
+
+
+label{
+    background-color:darkolivegreen;
+    margin-bottom: 1rem;
+    margin-top:1rem;
+    margin-right:15rem;
+    margin-left:15rem;
+    padding:0.5rem;
+    border-radius: 0.4rem;
+    color: cyan;
+}
+
+input{
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    display: block;
+}
+
+button{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: sandybrown;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 0.3rem;
+    display: block;
+    margin-right:15rem;
+    margin-left:15rem;
+}
+
+#output-box{
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: darkolivegreen;
+    color: cyan;
+    border-radius:0.3rem;
+}
+
+#error-box{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    color: red;
+    font-weight: bolder;
+}
