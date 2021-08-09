@@ -21,7 +21,6 @@ function clickHandler() {
         outputBox.style.display = "block";
         outputBox.innerText = "The length of Hypotenuse for given sides is: " + hypotenuse;
     } else {
-        alert("Input Value Error: Input should be a number and more than zero.");
         errorBox.style.display = "block";
         errorBox.innerText = "Please Enter Valid values in both the fields."
     }
