@@ -31,7 +31,7 @@ function clickHandler(){
         outputBox.innerText="You have answered a total of "+score+" questions correctly. Your total score is: "+ score+".";
     }else{
         errorBox.style.display= "block";
-        errorBox.innerHTML= `<div style="background-color: red; border-radius:0.5rem; padding: 0.5rem; margin-top:1rem;font-weight: bolder;text-align:center">Oops! It seems you missed out on some question. Please answer all of the questions before submitting.</div>`
+        errorBox.innerHTML= `<div style="background-color: red; border-radius:0.5rem; padding: 0.8rem; margin-top:1rem;font-weight: bolder;text-align:center">Oops! It seems you missed out on some question. Please answer all of the questions before submitting.</div>`
     }
     
 }
