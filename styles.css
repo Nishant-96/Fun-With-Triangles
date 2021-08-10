@@ -14,6 +14,7 @@ body{
     flex-direction:column;
     margin: auto;
     margin-top:10rem;
+    margin-bottom:10rem;
     padding: 1rem;
     padding-bottom: 8rem;
     font-size: 23px;
@@ -43,7 +44,7 @@ body{
     display: flex;
     flex-direction:column;
     margin: auto;
-    margin-top:2.5rem;
+    margin-top:2rem;
     padding: 1rem;
     padding-bottom: 8rem;
     text-align: center;
@@ -77,7 +78,7 @@ body{
 
 }
 
-/* for angles & hypotenuse & area of triangle  */
+/* for angles & hypotenuse & area  */
 
 .container-triangles-angle{
     display:contents;
